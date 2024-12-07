@@ -18,6 +18,7 @@ function gridGenerator(e) {
         div.style.border = "1px solid black";
         div.style.margin = ".01px";
         div.style.flexGrow = "1";
+        div.style.padding = "10px 0px"
         div.classList.toggle('child')
         div.style.flex = "1 1 auto";
         div.style.alignSelf = "stretch";
